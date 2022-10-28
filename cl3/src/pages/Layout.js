@@ -18,6 +18,13 @@ const Layout = () => {
       </nav>
 
       <Outlet />
+      
+      <footer>
+        <p>Mike Mella<br></br>
+          Tanner Manwaring<br></br>
+          <a href="https://github.com/TannerM99/CreativeLab3.git">GitHub Repository</a>
+        </p>
+      </footer>
     </>
   )
 };
