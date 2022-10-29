@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import dog from './pages/images/dog.png';
+import cat from './pages/images/cat.png';
+import other from './pages/images/other.png';
 
 export default function App() {
   return (
