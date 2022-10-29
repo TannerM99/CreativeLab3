@@ -1,8 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
 import logo from './images/photologo.png';
-import dog from './images/dog.png';
-import cat from './images/cat.png';
-import other from './images/other.png';
 
 const Layout = () => {
   return (

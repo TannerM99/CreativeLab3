@@ -19,8 +19,6 @@ footer {
     padding: 10px;
     width: 100%;
     color: black;
-    position: absolute;
-    bottom:0;
     font-family: Arial;
     font-size: 1.2em;
 }
@@ -46,6 +44,7 @@ h1 {
   justify-content: center;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 105px;
 }
 
 .grid {
@@ -67,4 +66,28 @@ h1 {
   font-size: 1.5em;
   text-align: center;
   padding-top: 5px;
+}
+
+@media only screen and (min-width: 1501px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 10px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+.item {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
 }
